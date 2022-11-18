@@ -1,3 +1,3 @@
-FROM node:14
+FROM node:16
 RUN apt-get update -y
 RUN apt-get install -y rsync
